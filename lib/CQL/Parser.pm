@@ -13,7 +13,7 @@ use CQL::PrefixNode;
 use CQL::ProxNode;
 use Carp qw( croak );
 
-our $VERSION = '0.1';
+our $VERSION = '0.11';
 
 my $lexer;
 my $token;
@@ -336,7 +336,7 @@ afterwards to make sure everything went ok.
 
     eval {
         my $node = $parser->parse( $cql );
-    }
+    };
     if ( $@ ) {
         print "uhoh, exception $@\n";
     }
@@ -363,6 +363,11 @@ patches!
 =back
 
 =head1 AUTHOR
+
+CQL::Parser is essentially a Perl port of Mike Taylor's cql-java package 
+http://zing.z3950.org/cql/java/. Mike and IndexData were kind enough
+to allow the author to write this port, and to make it available under
+the terms of the Artistic License. Thanks Mike!
 
 CQL::Parser was developed as a component of the Ockham project,
 which is funded by the National Science Foundation. See http://www.ockham.org

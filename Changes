@@ -1,5 +1,9 @@
 Change History
 
-v0.1 Mon Sep 13 23:58:31 CDT 2004
+v0.11   Tue Sep 14 00:24:06 CDT 2004
+- forgot to give mad props to Mike Taylor at IndexData who wrote 
+  cql-java which CQL is essentially a Perl port of.
+
+v0.1    Mon Sep 13 23:58:31 CDT 2004
 - initial release
 

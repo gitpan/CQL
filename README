@@ -19,6 +19,11 @@ This module requires these other modules and libraries:
 
 THANKYOUS
 
+CQL is essentially a Perl port of Mike Taylor's cql-java package 
+http://zing.z3950.org/cql/java/. Mike and IndexData were kind enough
+to allow me to write this port, and to make it available under
+the terms of the Artistic License.
+
 The CQL package relies heavily on Stevan Little's String::Tokenizer.
 Thanks Stevan!
 
